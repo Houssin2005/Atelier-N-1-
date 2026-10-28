@@ -1,8 +1,9 @@
 .lmj-phone-list {
-    list-style-type: none;
-    padding: 32px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  list-style: none;
+  background: radial-gradient(circle at top, #1c1c1e, #000000);
+  min-height: 100vh;
 }
